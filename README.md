@@ -22,7 +22,7 @@ Com-Spy is a Simple Windows Payload Generator Only For Termux Users.
 ```
 apt-get update
 
-git clone https://github.com/TechBite-BD/Com-Spy.git
+git clone https://github.com/TechEthical/Com-Spy.git
 
 cd Com-Spy
 
@@ -41,7 +41,7 @@ pkg update
 
 pkg install git
 
-git clone https://github.com/TechBite-BD/Com-Spy.git
+git clone https://github.com/TechEthical/Com-Spy.git
 
 cd Com-Spy
 
